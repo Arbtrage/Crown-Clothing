@@ -6,11 +6,9 @@ import { UserContext } from "./context/userContext";
 import Navigation from "./routes/navigation/Navigation";
 import Home from './routes/home/Home'
 import Authentication from './routes/authentication/Authentication';
+import Shop from './routes/shop/Shop'
 import './App.scss'
 
-const Shop=()=>{
-  return <h1>I am the Shop Page</h1>
-}
 const App = () => {
   const { currentUser } = useContext(UserContext);
   return (
